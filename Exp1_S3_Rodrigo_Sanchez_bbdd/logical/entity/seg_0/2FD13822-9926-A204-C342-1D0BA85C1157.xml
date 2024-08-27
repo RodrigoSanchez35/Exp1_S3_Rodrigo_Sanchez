@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FD13822-9926-A204-C342-1D0BA85C1157" name="ARBOL">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 03:14:13 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_arbol" id="51FDBCFC-4947-CBB8-33F3-33451C570E18">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 03:14:40 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_plantado_arbol" id="EE817B54-D169-7CA8-AC55-1D3A668703B4">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 03:15:05 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_muerte_arbol" id="CB1D2204-A396-1B39-255A-3BE7D84330CE">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 03:24:09 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_huerto_arbol" id="B319E0B5-EB05-F882-7281-3AC6A943C73F">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 03:24:40 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_especie_arbol" id="488197DD-DD95-30F5-F54A-3247579670C5">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:31:16 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_huerto" id="8BE32726-CCEC-BF20-F089-11FA40821FD8">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-27 00:01:16 UTC</createdTime>
+<generatorID>2154D591-D3CF-CCD0-FDEF-1E9EEBE48B88</generatorID>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<referedAttribute>A0FEE395-74A5-1836-72B2-585D0161B204</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99027EFD-A6D2-A773-9E33-97BACD5428A4" name="ARBOL PK">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 03:15:02 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51FDBCFC-4947-CBB8-33F3-33451C570E18</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

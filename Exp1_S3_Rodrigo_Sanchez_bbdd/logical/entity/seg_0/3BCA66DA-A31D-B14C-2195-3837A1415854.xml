@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BCA66DA-A31D-B14C-2195-3837A1415854" name="INJERTO">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:52:33 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_injerto" id="43169C7F-A04A-7BB3-B0CE-FAA73DA9034B">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:52:43 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_arbol_injerto" id="084B7F30-AF45-3D0F-59CC-D602F1E90347">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:53:12 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_variedad_injerto" id="7197071D-AA59-2000-1945-A8C7C6F5C6DB">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:57:47 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_variedad" id="D65E37A2-FFFC-C0FA-AC9B-5BDB38374D80">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-27 00:04:53 UTC</createdTime>
+<generatorID>750610EC-C738-60C6-2481-E553E018C242</generatorID>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<referedAttribute>AA454D98-7FD3-43E4-9138-FF5C4214288F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_arbol" id="6F79359D-CBE2-C79F-E3A6-C492365E13DB">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-27 00:09:54 UTC</createdTime>
+<generatorID>0B6114ED-E913-BCF8-85D5-2CA9FEBDA228</generatorID>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<referedAttribute>51FDBCFC-4947-CBB8-33F3-33451C570E18</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBF29D62-7314-9447-8555-6BDD05CC026C" name="INJERTO PK">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:53:08 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43169C7F-A04A-7BB3-B0CE-FAA73DA9034B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

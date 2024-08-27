@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1551ADCF-87F9-E057-E328-2A09EBFCAEEB" name="VARIEDAD">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:50:34 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_variedad" id="AA454D98-7FD3-43E4-9138-FF5C4214288F">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:50:55 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_variedad" id="1A86FCF4-19FA-C9FD-B027-DE02B7D16945">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:51:16 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_especie" id="DEAA46EE-C835-9ACC-03AC-45762FA442E4">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:51:50 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_especie1" id="02F7F98F-76EE-7271-B88F-DCB8F5727A8C">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-27 00:04:33 UTC</createdTime>
+<generatorID>284FC765-1809-FDF2-495C-2EBEE91C5FDB</generatorID>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<referedAttribute>758504FD-2634-0FCB-A32C-D1B1B97ED542</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="374BE8A1-7DAA-58B1-CFBC-7804B9D91289" name="VARIEDAD PK">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 23:51:13 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<engineerTo>
+<item key="DE2A2343-B453-7668-2039-74D2461875E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA454D98-7FD3-43E4-9138-FF5C4214288F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

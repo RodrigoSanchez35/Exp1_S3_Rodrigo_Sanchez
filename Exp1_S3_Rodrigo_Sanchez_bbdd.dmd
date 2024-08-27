@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp1_S3_Rodrigo_Sanchez_bbdd" id="6D1CC4D4-517A-1E12-E33D-6F1A331E32E9" version="3.5">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-08-26 02:42:13 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Rodrigo_Sanchez_bbdd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6D1CC4D4-517A-1E12-E33D-6F1A331E32E9</designId>
+</OSDM_Design>
